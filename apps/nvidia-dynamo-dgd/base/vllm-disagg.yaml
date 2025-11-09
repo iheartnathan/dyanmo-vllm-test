@@ -45,7 +45,7 @@ spec:
           - dynamo.vllm
           args:
             - --model
-            - meta-llama/Llama-3.1-8B-Instruct
+            - Qwen/Qwen3-8B
             - --is-decode-worker
     VllmPrefillWorker:
       dynamoNamespace: default
@@ -79,5 +79,5 @@ spec:
           - dynamo.vllm
           args:
             - --model
-            - meta-llama/Llama-3.1-8B-Instruct
+            - Qwen/Qwen3-8B
             - --is-prefill-worker
